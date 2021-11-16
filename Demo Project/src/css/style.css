@@ -13,11 +13,9 @@ body{
 }
 .c-nav-link{
 	font-family: 'Cinzel Decorative', cursive;
-	font-weight: 700px !important;
 }
 .c-nav-link:hover{
 	background-color: #D06224;
-	padding: -10px !important;
 	color: #fff !important;
 }
 /* navbar social icon */
@@ -86,4 +84,11 @@ ul.social-share li a.twitter:hover {
 }
 .c-btn{
 	font-size: 18px;
+}
+/* About Us */
+
+/* Rent Now Button */
+.btn-rent-now{
+	background-color: #D06224;
+	color:#fff;
 }

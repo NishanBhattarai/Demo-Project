@@ -28,10 +28,10 @@
 			<div class="collapse navbar-collapse" id="navbarCollpase">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item c-nav-item">
-						<a class="nav-link c-nav-link active" href="index.html">Home</a>
+						<a class="nav-link c-nav-link" href="index.html">Home</a>
 					</li>
 					<li class="nav-item c-nav-item">
-						<a class="nav-link c-nav-link" href="about.html">About Us</a>
+						<a class="nav-link c-nav-link active" href="about.html">About Us</a>
 					</li>
 
 					<li class="nav-item c-nav-item">
@@ -51,9 +51,8 @@
 			</div>
 		</div>
 	</nav>
-
-	  <!--    HOME SECTION -->
-	  <header id="">
+    <!-- BANNER AND SEARCH -->
+    <header id="">
 		<div id="carouselExampleControls home-section" class="carousel slide" data-ride="carousel">
 			<div class="carousel-inner">
 			  <div class="carousel-item active">
@@ -110,15 +109,23 @@
 	  		</div>
 	  	</div>
 	  </header>
-	  <!--EXPLORE HEAD-->
-	  <section id="">
+
+	  <!--    CONTACT US SECTION -->
+	  
+      
+	  <section id="about">
 	  	<div class="container">
 	  		<div class="row">
 	  			<div class="col text-center explore-text">
 	  				<div class="py-4">
-	  					<h1 class="display-4"> Catherine River Mills</h1>
-	  					<p class="lead">Welcome to the official web site of the Catherine River Mills Apartments. Living at the Catherine River Mills is like living in the past but with all the modern amenities. The uniquely rehabilitated historical buildings consist of studio, one, two and three bedroom units with more than one hundred twenty different floor plans. The property is located on the banks of the beautiful Fox River. We invite you to continue on and explore the many different facets of the Historical Fox River Mills apartments and the area attractions that surround it. </p>
-	  					<a href="#" class="btn btn-outline-dark">Find Out More</a>
+	  					<h1 class="display-4">Now Renting</h1>
+	  					<p class="lead">Catherine River Mills</p>
+                        <p>Surrounded by history, the Catherine River Mills is truly ideal living. Combine the ambiance of old, with the modern amenities of today and you will see why this is truly an extraordinary place to live.
+
+                            Unique apartment homes like no other in the Fox Valley! Check out our floor plans and you'll see just what we mean. 188 apartment homes and over 120 different floor plans, exposed brick, some with fire places, jacuzzi tubs, and spectacular views of the river! Underground parking included with larger units. Most come with all utilities, tenant pays electric in 101, 111, & 121 buildings only.
+                            
+                            There are new vacancies almost monthly so be sure to check back here often. Use our online search utility to find the right unit for you.</p>
+                        <a href="#" data-toggle="modal" data-target="#rent-now" class="btn btn-outline-dark">RENTING NOW!!!</a>
 	  				</div>
 	  			</div>
 	  		</div>
@@ -141,6 +148,42 @@
 	 	</div>
 	 </footer>
 
+     <!-- RENT NOW MODAL -->
+     <div class="modal fade text-dark" id="rent-now">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="contactModalTitle">Renting Now</h5>
+                    <button class="close" data-dismiss="modal"><span>&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                          <select name="" id="" class="form-control">
+                              <option value="Any">Bedrooms</option>
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="4+">4+</option>
+                          </select>
+                      </div>
+                      <div class="form-group">
+                          <select name="" id="" class="form-control">
+                              <option value="Any">Rents</option>
+                              <option value="< 600">< 600></option>
+                              <option value="600 - 700">600 -700</option>
+                              <option value="700 - 800">800 - 900</option>
+                              <option value="900 - 1000">900 - 1000</option>
+                              <option value="1000+">1000+</option>
+                          </select>
+                      </div>
+                        <input type="submit" class="btn btn-rent-now btn-block" value="GO!">
+                        </form>
+                </div>
+            </div>
+        </div>
+    </div>
+     
 	 	<!-- CONTACT MODAL -->
 	 	<div class="modal fade text-dark" id="contactModal">
 	 		<div class="modal-dialog">
