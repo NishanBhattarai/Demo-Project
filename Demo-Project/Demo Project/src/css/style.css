@@ -1,7 +1,13 @@
 
 body{
-	background-color: #FFC074;
-
+	background-color: #E9D893;
+	font-family: 'Montserrat', sans-serif;
+}
+a{
+	color:#8D4417;
+}
+a:hover{
+	color:#8D4417;
 }
 /* Navbar */
 .navbar{
@@ -14,12 +20,12 @@ body{
 	font-family: 'Cinzel Decorative', cursive;
 }
 .c-active{
-	background-color: #D06224;
+	background-color: #8D4417;
 	color: #fff !important;
 }
 
 .c-nav-link:hover{
-	background-color: #D06224;
+	background-color: #8D4417;
 	color: #fff !important;
 }
 /* navbar social icon */
@@ -75,7 +81,7 @@ ul.social-share li a.twitter:hover {
 }
 .card-form{
 	opacity: 0.95;
-	background-color: #D06224;
+	background-color: #8D4417;
 	margin:30px 0px 0px 0;
 }
 .explore-text{
@@ -84,28 +90,22 @@ ul.social-share li a.twitter:hover {
 
 .quick-search{
 	color:#fff;
-	font-family: 'Montserrat', sans-serif;
 }
 /* Footer */
 .c-footer{
-	background-color: #D06224;
+	background-color: #8D4417;
 	color: #fff;
-	font-family: 'Montserrat', sans-serif;
 }
 .c-btn{
 	font-size: 18px;
 }
 /* About Us */
-.unit-amenities{
-	font-family: 'Montserrat', sans-serif;
-}
-.unit-amenities-inline li{
-	display:inline;
-}
+
+
 
 /* Rent Now Button */
 .btn-rent-now{
-	background-color: #D06224;
+	background-color: #8D4417;
 	color:#fff;
 }
 
@@ -113,4 +113,24 @@ ul.social-share li a.twitter:hover {
 
 .table-contact{
 	width: 200px;
+}
+
+.c-font-size{
+	font-size: 18px;
+}
+
+/* Details Page */
+.rent-price{
+	color: #8D4417;
+	font-weight: 800;;
+}
+.c-btn-outline-brown{
+	background-color: #8D4417;
+	color: #fff;
+	border:#fff solid 1px;
+}
+.c-btn-outline-brown:hover{
+	background-color: #fff;
+	color: #8D4417;
+	border: #8D4417 solid 1px;
 }
