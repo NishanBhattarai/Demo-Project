@@ -155,9 +155,17 @@ ul.social-share li a.twitter:hover {
 	color: #8D4417;
 	border: #8D4417 solid 1px;
 }
-
+.list-style{
+	list-style-type: disc;
+}
+.list-style li{
+	padding: 5px;
+}
+.features{
+	margin-left: 10px;
+}
 /* Underline Features */
 .underline{
-	border-bottom: #8D4417 solid 5px;
+	border-bottom: #8D4417 solid 4px;
 	margin: 0px 40%;
 }
