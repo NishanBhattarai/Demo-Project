@@ -64,14 +64,14 @@
 				</div>
 				<div class="my-3 unit-amenities">
 					<h3 class="text-center">Unit Amenities</h3>
-							<table>
+							<table class="unit-amenities-table">
 								<tr>
-									<ul class="unit-amenities-inline"></ul>
+									<ul class="unit-amenities-inline">
 									<td>
 						
 										<li>Brick interior walls</li>
 									</td>
-									<td>
+									<td class="w-25"> 
 										<li>Eight - fourteen foot ceilings</li>
 									</td>
 									<td>
@@ -101,7 +101,8 @@
 										<li>Contemporary kitchens and baths </li>
 									</td>
 									<td>
-										<li>Totally equipped kitchens including refrigerator, stove, microwave oven, dishwasher and garbage disposal</li>
+										<li class="text-justify pr-2">Totally equipped kitchens including
+											refrigerator, stove, microwave oven, dishwasher and garbage disposal </li>
 									</td>
 									<td>
 										<li>Central air conditioning </li>
@@ -128,10 +129,16 @@
 							</table>	
 						
 				</div>
-				<div class="my-3">
+				<div class="mt-4">
 					<p class="lead">Being located on the Fox River allows you to enjoy the sight and sounds of the river. The courtyards provide an opportunity for sunning and entertainment in a spectacular and unique setting.</p>
 				</div>
-			<div id="carouselExampleControls home-section" class="carousel slide" data-ride="carousel">
+			<div id="carouselExampleControls" class="carousel slide my-5" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+					<li data-target="#carouselExampleControls" data-slide-to="1"></li>
+					<li data-target="#carouselExampleControls" data-slide-to="2"></li>
+					<li data-target="#carouselExampleControls" data-slide-to="3"></li>
+				  </ol>
 			<div class="carousel-inner">
 			  <div class="carousel-item active">
 				<img class="d-block w-100" height="450px" src="img/Exterior Courtyard Fountain.JPG" alt="Exterior Courtyard Fountain">
@@ -146,12 +153,26 @@
 				<img class="d-block w-100" height="450px" src="img/Exterior Courtyard Phase II.JPG" alt="Exterior Courtyard Phase II">
 			  </div>
 			</div>
+			<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			  </a>
+			  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			  </a>
 		  </div>
 	
 				<div class="my-4">
 					<p class="lead">Our resident community space is filled with natural sunlight from the south facing windows with spectacular views of the Fox River. Relaxing in this space is like a day at the spa.  Watch your favorite shows on our big screen TV or cozy up to the fireplace with your laptop and enjoy our WIFI.  A spacious kitchen and dining area can accommodate your entertaining needs in outstanding surroundings.  This area is available for our resident’s enjoyment or for residents to rent for private functions.</p>
 				</div>
-				<div id="carouselExampleControls home-section" class="carousel slide" data-ride="carousel">
+				<div id="carouselExampleControls2" class="carousel slide my-5" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#carouselExampleControls2" data-slide-to="0" class="active"></li>
+						<li data-target="#carouselExampleControls2" data-slide-to="1"></li>
+						<li data-target="#carouselExampleControls2" data-slide-to="2"></li>
+						<li data-target="#carouselExampleControls2" data-slide-to="3"></li>
+					  </ol>
 					<div class="carousel-inner">
 					  <div class="carousel-item active">
 						<img class="d-block w-100" height="450px" src="img/Community Room east.jpg" alt="Community Room east">
@@ -166,8 +187,16 @@
 						<img class="d-block w-100" height="450px" src="img/Community Room kitchen.jpg" alt="Community Room kitchen">
 					  </div>
 					</div>
+					<a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					  </a>
+					  <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					  </a>
 				</div>
-			<div class="my-4">
+			<div class="mb-5">
 				<p class="lead">Living at the Catherine River Mills apartments offers you a totally unique living experience. We offer studios, one, two and three bedroom apartments. We also offer two, three and four level luxury townhouses. Some with panoramic views of floor plans to choose from. The building's restoration has retained it's outstanding historic features such as brick interiors and wood beam ceilings that can soar up to fourteen feet high.</p>
 			</div>
 		</div>
@@ -227,7 +256,7 @@
 
 <script>
 	$('.carousel').carousel({
-		  interval: 2000
+		  interval: 5000
 	})
 </script>
 	

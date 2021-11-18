@@ -100,13 +100,21 @@ ul.social-share li a.twitter:hover {
 	font-size: 18px;
 }
 /* About Us */
-
+.unit-amenities-table td{
+	padding-bottom: 10px;
+	padding-right: 5px;
+}
 
 
 /* Rent Now Button */
 .btn-rent-now{
 	background-color: #8D4417;
 	color:#fff;
+}
+.btn-rent-now:hover{
+	background-color: #fff;
+	color:#8D4417;
+	border: #8D4417 solid 1px;
 }
 
 /* Area Attraction */
