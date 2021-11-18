@@ -133,7 +133,13 @@ ul.social-share li a.twitter:hover {
 .c-font-size{
 	font-size: 18px;
 }
-
+.c-thead{
+	background-color: #8D4417;
+	color: #fff;
+}
+.palaces{
+	color: #8D4417;
+}
 /* Details Page */
 .rent-price{
 	color: #8D4417;
