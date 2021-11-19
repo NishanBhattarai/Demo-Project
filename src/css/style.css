@@ -4,10 +4,10 @@ body{
 	font-family: 'Montserrat', sans-serif;
 }
 a{
-	color:#8D4417;
+	color:#D06224;
 }
 a:hover{
-	color:#8D4417;
+	color:#D06224;
 }
 /* Navbar */
 .navbar{
@@ -20,12 +20,12 @@ a:hover{
 	font-family: 'Cinzel Decorative', cursive;
 }
 .c-active{
-	background-color: #8D4417;
+	background-color: #D06224;
 	color: #fff !important;
 }
 
 .c-nav-link:hover{
-	background-color: #8D4417;
+	background-color: #D06224;
 	color: #fff !important;
 }
 /* navbar social icon */
@@ -81,7 +81,7 @@ ul.social-share li a.twitter:hover {
 }
 .card-form{
 	opacity: 0.95;
-	background-color: #8D4417;
+	background-color: #D06224;
 	margin:30px 0px 0px 0;
 }
 .explore-text{
@@ -93,7 +93,7 @@ ul.social-share li a.twitter:hover {
 }
 /* Footer */
 .c-footer{
-	background-color: #8D4417;
+	background-color: #D06224;
 	color: #fff;
 }
 .c-btn{
@@ -101,8 +101,8 @@ ul.social-share li a.twitter:hover {
 }
 /* About Us */
 #about .fa{
-	border: #8D4417 solid 1px;
-	color:#8D4417;
+	border: #D06224 solid 1px;
+	color:#D06224;
 	padding:35px;
 	border-radius: 15px;
 	font-size:33px;
@@ -115,13 +115,13 @@ ul.social-share li a.twitter:hover {
 
 /* Rent Now Button */
 .btn-rent-now{
-	background-color: #8D4417;
+	background-color: #D06224;
 	color:#fff;
 }
 .btn-rent-now:hover{
 	background-color: #fff;
-	color:#8D4417;
-	border: #8D4417 solid 1px;
+	color:#D06224;
+	border: #D06224 solid 1px;
 }
 
 /* Area Attraction */
@@ -134,26 +134,26 @@ ul.social-share li a.twitter:hover {
 	font-size: 18px;
 }
 .c-thead{
-	background-color: #8D4417;
+	background-color: #D06224;
 	color: #fff;
 }
 .palaces{
-	color: #8D4417;
+	color: #D06224;
 }
 /* Details Page */
 .rent-price{
-	color: #8D4417;
+	color: #D06224;
 	font-weight: 800;;
 }
 .c-btn-outline-brown{
-	background-color: #8D4417;
+	background-color: #D06224;
 	color: #fff;
 	border:#fff solid 1px;
 }
 .c-btn-outline-brown:hover{
 	background-color: #fff;
-	color: #8D4417;
-	border: #8D4417 solid 1px;
+	color: #D06224;
+	border: #D06224 solid 1px;
 }
 .list-style{
 	list-style-type: disc;
@@ -166,6 +166,6 @@ ul.social-share li a.twitter:hover {
 }
 /* Underline Features */
 .underline{
-	border-bottom: #8D4417 solid 4px;
+	border-bottom: #D06224 solid 4px;
 	margin: 0px 40%;
 }
